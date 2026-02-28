@@ -5,20 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sasank Khatri | Portfolio</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Background blobs -->
-<div class="blob blob1"></div>
-<div class="blob blob2"></div>
-
-<button class="theme-toggle" onclick="toggleTheme()">🌙</button>
-
 <header>
   <h2 class="logo">Sasank<span>.</span></h2>
+
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
@@ -26,34 +25,33 @@
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
+
+  <!-- Toggle -->
+  <button id="themeToggle" class="theme-toggle">🌙</button>
 </header>
 
-<section id="home" class="hero reveal">
+<!-- HERO -->
+<section id="home" class="hero">
   <div class="hero-text">
     <h1>Hi, I'm <span>Sasank Khatri</span></h1>
-    <h2 class="typing"></h2>
-    <a href="#contact" class="btn">Let’s Work Together</a>
-
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/sasank-khatri-6548672a9/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/SasankKhatri" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.instagram.com/sashank_kc" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.facebook.com/sasankkhatri" target="_blank"><i class="fab fa-facebook"></i></a>
-    </div>
+    <p>Computer Programming Student & Web Developer</p>
+    <a href="#contact" class="btn">Contact Me</a>
   </div>
 
-  <img src="profile.jpg" class="profile-pic" alt="Profile">
+  <img src="profile.jpg" alt="Profile" class="profile-pic">
 </section>
 
-<section id="about" class="section glass reveal">
+<!-- ABOUT -->
+<section id="about" class="section">
   <h2>About Me</h2>
   <p>
-    I’m a computer programming student who loves building modern,
-    animated, user-friendly web experiences with clean code and strong UI/UX.
+    I am a computer programming student passionate about building clean,
+    modern websites and continuously improving my development skills.
   </p>
 </section>
 
-<section id="skills" class="section reveal">
+<!-- SKILLS -->
+<section id="skills" class="section light-bg">
   <h2>Skills</h2>
   <div class="skills-grid">
     <div class="skill">HTML</div>
@@ -65,24 +63,33 @@
   </div>
 </section>
 
-<section id="projects" class="section glass reveal">
+<!-- PROJECTS -->
+<section id="projects" class="section">
   <h2>Projects</h2>
   <div class="project-grid">
     <div class="project-card">
       <h3>Portfolio Website</h3>
-      <p>Advanced animated personal portfolio.</p>
+      <p>Personal responsive portfolio built with HTML, CSS, and JavaScript.</p>
     </div>
     <div class="project-card">
       <h3>Room Booking App</h3>
-      <p>PowerApps room booking system.</p>
+      <p>Room booking application created using PowerApps.</p>
     </div>
   </div>
 </section>
 
-<section id="contact" class="section reveal">
+<!-- CONTACT + SOCIALS (ONLY PLACE) -->
+<section id="contact" class="section light-bg">
   <h2>Contact</h2>
   <p>Email: kcsasank78045@gmail.com</p>
   <p>Phone: 9867876979</p>
+
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/sasank-khatri-6548672a9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/SasankKhatri" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.instagram.com/sashank_kc" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/sasankkhatri" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
 </section>
 
 <footer>
