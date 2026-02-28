@@ -1,80 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sasank Khatri | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sasank Khatri | Developer Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav>
-        <h2 class="logo">Sasank</h2>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<!-- Dark Mode Toggle -->
+<button class="theme-toggle" onclick="toggleTheme()">🌙</button>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <h1>Hello, I'm <span>Sasank Khatri</span></h1>
-        <p>Computer Programming Student | Web Developer</p>
-        <button onclick="scrollToContact()">Hire Me</button>
-    </section>
+<!-- Navbar -->
+<header>
+  <h2 class="logo">Sasank.</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-    <!-- About -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>
-            I am a computer programming student passionate about web development.
-            I enjoy building websites, learning new technologies, and improving my skills every day.
-        </p>
-    </section>
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Sasank</span></h1>
+    <p>Computer Programming Student & Web Developer</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </div>
+  <img src="profile.jpg" class="profile-pic" alt="Profile">
+</section>
 
-    <!-- Skills -->
-    <section id="skills" class="section dark">
-        <h2>Skills</h2>
-        <div class="skills">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Python</span>
-            <span>SQL</span>
-            <span>Git</span>
-        </div>
-    </section>
+<!-- About -->
+<section id="about" class="section glass">
+  <h2>About Me</h2>
+  <p>
+    I’m a passionate computer programming student focused on building modern,
+    scalable web applications with clean UI and smooth UX.
+  </p>
+</section>
 
-    <!-- Projects -->
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="card">
-                <h3>Portfolio Website</h3>
-                <p>Personal portfolio using HTML, CSS, and JavaScript.</p>
-            </div>
-            <div class="card">
-                <h3>Room Booking App</h3>
-                <p>Room booking system built with PowerApps.</p>
-            </div>
-        </div>
-    </section>
+<!-- Skills -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Python</div>
+    <div class="skill">SQL</div>
+    <div class="skill">Git</div>
+  </div>
+</section>
 
-    <!-- Contact -->
-    <section id="contact" class="section dark">
-        <h2>Contact Me</h2>
-        <p>Email: kcsasank78045@gmail.com</p>
-        <p>Phone: 9867876979</p>
-    </section>
+<!-- Projects -->
+<section id="projects" class="section glass">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Modern responsive portfolio using HTML, CSS & JS.</p>
+    </div>
+    <div class="project-card">
+      <h3>Room Booking App</h3>
+      <p>PowerApps room booking system with calendar logic.</p>
+    </div>
+  </div>
+</section>
 
-    <footer>
-        <p>© 2026 Sasank Khatri</p>
-    </footer>
+<!-- Contact -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: kcsasank78045@gmail.com</p>
+  <p>Phone: 9867876979</p>
+</section>
 
-    <script src="script.js"></script>
+<footer>© 2026 Sasank Khatri</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

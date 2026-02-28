@@ -1,5 +1,3 @@
-function scrollToContact() {
-    document.getElementById("contact").scrollIntoView({
-        behavior: "smooth"
-    });
+function toggleTheme() {
+  document.body.classList.toggle("light");
 }
