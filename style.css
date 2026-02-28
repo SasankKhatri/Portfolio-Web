@@ -1,16 +1,103 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.logo{
-    font-size: 50px;
+
+body {
+    background: #f4f4f4;
+    color: #333;
 }
-.upperline{
+
+nav {
     display: flex;
-    width: 80%;
-    margin: auto;
-    padding: 20px 0;
-    align-items: center;
     justify-content: space-between;
-}   
+    align-items: center;
+    padding: 15px 50px;
+    background: #111;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    color: #00adb5;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #00adb5, #393e46);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero span {
+    color: #ffd369;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background: #ffd369;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.section {
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.dark {
+    background: #222;
+    color: #fff;
+}
+
+.skills span {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #00adb5;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.dark .card {
+    background: #333;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
